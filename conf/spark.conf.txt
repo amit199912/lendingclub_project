@@ -1,0 +1,3 @@
+config('spark.ui.port', '0'). \
+config("spark.sql.warehouse.dir", f"/user/{username}/warehouse"). \
+conf("spark.executor.core = 5")
